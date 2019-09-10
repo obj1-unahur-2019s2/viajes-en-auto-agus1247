@@ -1,0 +1,13 @@
+import remiseras.*
+test "mariela mas de 50" {
+		
+	assert.equals(180, mariela.cobrar(ludmila, 10))
+
+}
+
+test "mariela 50" {
+
+assert.equals(50, mariela.cobrar(ludmila, 2))
+
+}
+
